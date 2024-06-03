@@ -13,15 +13,13 @@ Background Removed For Nemo requires "notify-send" and the "rembg" python packag
 Open a Terminal and input the following commands to install the plugin.
 
 ```bash
-  $ sudo apt install libnotify-bin
-  $ pip install rembg
   $ git clone https://github.com/NBA2K1/image-background-remover-for-nemo.git
+  $ sudo apt install python3-pip libnotify-bin
   $ cd image-background-remover-for-nemo
-  $ cp remove_bg.sh ~/.local/share/nemo/actions/
-  $ chmod +x ~/.local/share/nemo/actions/remove_bg.sh
-  $ cp remove_bg.nemo_action ~/.local/share/nemo/actions/
+  $ chmod +x ./install.sh
+  $ ./install.sh
 ```
-This will install the plugin in Nemo, and right-clicking on an image will now show the "Remove Background" option.
+The second command will install pip and libnotify, if they aren't already installed. The last command will install [rembg](https://github.com/danielgatis/rembg) and its dependencies for the Nemo plugin. Right-clicking on an image will now show the "Remove Background" option.
 
 ## Demo
 

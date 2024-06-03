@@ -1,5 +1,5 @@
 
-#One Click Image Background Remover For Linux Mint Nemo
+## One Click Image Background Remover For Linux Mint Nemo
 
 This is a plugin for the Nemo file browser. When you click on any image file, a menu item will appear to remove the background of the selected image. Clicking on the menu item will remove the background of the image. The original image will be preserved, and a new image with the removed background will have a temporary name.
 

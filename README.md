@@ -15,8 +15,8 @@ Open a Terminal and input the following commands to install the plugin.
 ```bash
   $ sudo apt install libnotify-bin
   $ pip install rembg
-  $ git https://github.com/supersuryaansh/background-remover-for-nemo.git
-  $ cd background-remover-for-nemo
+  $ git clone https://github.com/NBA2K1/image-background-remover-for-nemo.git
+  $ cd image-background-remover-for-nemo
   $ cp remove_bg.sh ~/.local/share/nemo/actions/
   $ chmod +x ~/.local/share/nemo/actions/remove_bg.sh
   $ cp remove_bg.nemo_action ~/.local/share/nemo/actions/
